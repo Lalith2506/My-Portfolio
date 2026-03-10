@@ -303,6 +303,11 @@ section {
   text-align: center;
 }
 
+.details-container:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
