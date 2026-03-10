@@ -334,12 +334,9 @@ section {
 }
 
 .article-container {
-  display: flex; 
-  text-align: initial; 
-  flex-wrap: wrap; 
-  flex-direction: row; 
-  gap: 2.5rem; 
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 article {
