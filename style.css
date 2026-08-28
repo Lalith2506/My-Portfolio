@@ -365,6 +365,10 @@ article .icon {
   cursor: default;
 }
 
+article div {
+  text-align: left;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
